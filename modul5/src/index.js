@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ApiTmdb from './apiTmdb';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ApiTmdb />
   </React.StrictMode>,
   document.getElementById('root')
 );
