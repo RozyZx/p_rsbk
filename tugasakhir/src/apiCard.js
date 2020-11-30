@@ -5,6 +5,7 @@ const CardHolder = styled.div`
     display: inline-grid;
     margin-left: auto;
     margin-right: auto;
+    cursor: default;
 `
 
 const Card = styled.div`
