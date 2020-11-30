@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 600px) {
+  .page-template-grid-page .content-wrapper.full-width.without-featured-image	{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.about {
+  float: right;
+}
